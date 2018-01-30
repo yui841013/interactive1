@@ -1,0 +1,16 @@
+* {
+    margin: 0px;
+    padding: 10px;
+    
+}
+
+body{
+	color: white;
+background: skyblue;
+}
+a{
+	color:red;
+}
+div{
+	border: 1px solid blue;
+}
