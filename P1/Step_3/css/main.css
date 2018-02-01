@@ -43,7 +43,64 @@ right:-359px;
   right:-450px;
  }
 }
-#v4{background-color: cornflowerblue;
+.div2{
+}
+#va2{
+  color: white;
+font-family: 'roman',serif;
+background-color: Turquoise;
+}
+
+#pp1{
+  position:absolute;
+  top:322px;
+  right:-375px;
+}
+#pp2{
+  position:absolute;
+  top:363px;
+  right:-521px;
+}
+#pp3{
+  position:absolute;
+  top:420px;
+  right:-521px;
+}
+
+.rotation8 {
+  transform: rotate(90deg);
+  position:absolute;
+  top:373px;
+  right:410px;
+}
+
+.rotation9 {
+   transform: rotate(223deg);
+   position: absolute;
+   top: 140px;
+   right: 240px;
+ }
+.rotation10{
+  transform: rotate(90deg);
+  position:absolute;
+  top:731px ;
+  right: -74px;
+}
+.rotation11{
+  transform: rotate(90deg);
+  position:absolute;
+  top:505px ;
+  right: 289px;
+}
+.rotation12{
+  transform: rotate(90deg);
+  position:absolute;
+  top:800px ;
+  right: -195px;
+}
+}
+#v4{
+  background-color: cornflowerblue;
   font-family: 'Abel', sans-serif;
 font-size: 150px;
 
