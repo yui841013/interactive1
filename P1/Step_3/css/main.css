@@ -97,11 +97,46 @@ background-color: Turquoise;
   position:absolute;
   top:800px ;
   right: -195px;
+ }
 }
+.div3{
 }
-#v4{
-  background-color: cornflowerblue;
+#v3{
+  color: yellow;
+  background-color: darkorange;
   font-family: 'Abel', sans-serif;
-font-size: 150px;
+font-size: 100px;
+ }
+}
+.div4{
+
+}
+
+#v4{
+  color: coral;
+  background-color: navajowhite;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 200px 200px;
+}
+.item1{
+  border: 1px solid green;
+  padding: 50px;
+}
+.item2{
+  border: 1px solid green;
+  padding: 50px;
+}
+.item3{
+  border: 1px solid green;
+  padding: 50px;
+}
+.item4{
+  border: 1px solid green;
+  padding: 50px;
+}
+
 
 }
