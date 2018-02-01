@@ -1,0 +1,50 @@
+/* v1 */
+*{
+  margin:10px;
+  padding: 150px;
+  width: 750px;
+
+}
+
+.div{
+  background-color: peachpuff;
+}
+#v1{
+	color: crimson;
+background-color: hotpink;
+font-family: 'PT sans',sans-serif;
+}
+
+
+#pos1{
+position:absolute;
+top:590px;
+right:-230px;
+}
+
+#pos2{
+  position:absolute;
+  top:657px;
+  right:-290px;
+}
+#pos3{
+position:absolute;
+top:780px;
+right:-359px;
+}
+#pos4{
+  position:absolute;
+  top:890px;
+  right:-400px
+}
+#author{
+  position:absolute;
+  top:983px;
+  right:-450px;
+ }
+}
+#v4{background-color: cornflowerblue;
+  font-family: 'Abel', sans-serif;
+font-size: 150px;
+
+}
