@@ -1,0 +1,27 @@
+*{
+}
+body{
+  text-align: right;
+}
+
+.animation {
+  width:100%;
+  overflow:hidden;
+}
+
+.animation {
+  animation: animation 2s;
+}
+
+@keyframes animation {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+
+}
