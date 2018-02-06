@@ -1,25 +1,28 @@
 *{
+  background: linear-gradient(110deg, #3383FF 60%, #ffed4b 80%);
 }
 body{
   text-align: right;
-font-family: 'Archivo Black', sans-serif;
-background-color: darkorange;
+  font-family: 'Oxygen', sans-serif;
 color:yellow;
+}
+.font{
+  font-size: 25px;
 }
 h1{
     color: red;
-    font-size: 250px;
+    font-size: 200px;
+font-family: 'Raleway', sans-serif;
 }
 h2{
-color:white;
+color:blue;
 font-size: 300px;
 }
-.h1{
+h1{
   line-height: 30px;
 }
 p{
-
-  color:
+color:white;
 }
 .animation {
   width:100%;
