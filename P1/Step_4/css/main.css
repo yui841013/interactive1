@@ -13,14 +13,19 @@ h1{
     color: #ffed4b;
     font-size: 200px;
 font-family: 'Raleway', sans-serif;
+line-height: 30px;
 }
+
+h1 a{
+  text-decoration: none;
+  color: #ffed4b;
+}
+
 h2{
 color:blue;
 font-size: 300px;
 }
-h1{
-  line-height: 30px;
-}
+
 p{
 color:white;
 }
