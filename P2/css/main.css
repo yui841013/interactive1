@@ -1,0 +1,384 @@
+body{
+  background:black;
+font-family: 'Francois One', sans-serif;
+margin: 0;
+}
+
+h3{
+  color: turquoise;
+}
+
+img{
+
+ width: 100%;
+  height: auto;
+
+}
+
+title{
+
+}
+/* .grid{
+  display: grid;
+  grid-template-columns: repeat(5,2fr);
+} */
+
+section{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.slide1 {
+  position: absolute;
+  left: 8%;
+	width:84%;
+  float: left;
+  height: 100vh;
+  color: black;
+}
+
+.slide2 {
+  position: absolute;
+  left: 8%;
+	width:84%;
+  float: left;
+  height: 100vh;
+  color: black;
+}
+
+.slide3 {
+  position: absolute;
+  left: 8%;
+	width:84%;
+  float: left;
+  height: 100vh;
+  color: black;
+}
+.slide4 {
+  position: absolute;
+  left: 8%;
+	width:84%;
+  float: left;
+  height: 100vh;
+  color: black;
+}
+.slide5 {
+  position: absolute;
+  left: 8%;
+	width:84%;
+  float: left;
+  height: 100vh;
+  color: black;
+}
+.slide6 {
+  position: absolute;
+  left: 8%;
+	width:84%;
+  float: left;
+  height: 100vh;
+  color: black;
+}
+.slide7 {
+  position: absolute;
+  left: 8%;
+	width:84%;
+  float: left;
+  height: 100vh;
+  color: black;
+}
+.slide8 {
+  position: absolute;
+  left: 8%;
+	width:84%;
+  float: left;
+  height: 100vh;
+  color: black;
+}
+.slide9 {
+  position: absolute;
+  left: 8%;
+	width:84%;
+  float: left;
+  height: 100vh;
+  color: black;
+}
+.slide10 {
+  position: absolute;
+  left: 8%;
+	width:84%;
+  float: left;
+  height: 100vh;
+  color: black;
+}
+.slide11 {
+  position: absolute;
+  left: 8%;
+	width:84%;
+  float: left;
+  height: 100vh;
+  color: black;
+}
+.slide12 {
+  position: absolute;
+  left: 8%;
+	width:84%;
+  float: left;
+  height: 100vh;
+  color: black;
+}
+.slide13 {
+  position: absolute;
+  left: 8%;
+	width:84%;
+  float: left;
+  height: 100vh;
+  color: black;
+}
+.slide14 {
+  position: absolute;
+  left: 8%;
+	width:84%;
+  float: left;
+  height: 100vh;
+  color: black;
+}
+.slide15 {
+  position: absolute;
+  left: 8%;
+	width:84%;
+  float: left;
+  height: 100vh;
+  color: black;
+}
+.slide16 {
+  position: absolute;
+  left: 8%;
+	width:84%;
+  float: left;
+  height: 100vh;
+  color: black;
+}
+
+
+.title{
+color:white;
+  position: absolute;
+  top: 5%;
+  left: 1%;
+  font-size: 3em;
+
+}
+
+.item{
+  top:24vh;
+  position: relative;
+  width: 19%;
+  float: left;
+  margin:0.5%;
+
+
+}
+
+.item1 :hover{
+  opacity: 0;
+  transition: 0.9s;
+  transform: scale(100);
+}
+
+.item2 :hover{
+  opacity:0;
+  transition: 0.9s;
+  transform: scale(100)
+}
+
+.item3 :hover{
+  opacity:0;
+  transition: 0.9s;
+  transform: scale(100);
+}
+.item4 :hover{
+  opacity:0;
+  transition: 0.9s;
+  transform: scale(100);
+}
+.item5 :hover{
+  opacity:0;
+  transition: 0.9s;
+  transform: scale(100);
+}
+.item6 :hover{
+  opacity:0;
+  transition: 0.9s;
+  transform: scale(100);
+}
+.item7 :hover{
+  opacity:0;
+  transition: 0.9s;
+  transform: scale(100);
+}
+.item8 :hover{
+  opacity:0;
+  transition: 0.9s;
+  transform: scale(100);
+}
+.item9 :hover{
+  opacity:0;
+  transition: 0.9s;
+  transform: scale(100);
+}
+.item10 :hover{
+  opacity:0;
+  transition: 0.9s;
+  transform: scale(100);
+}
+.item11 :hover{
+  opacity:0;
+  transition: 0.9s;
+  transform: scale(100);
+}
+.item12 :hover{
+  opacity:0;
+  transition: 0.9s;
+  transform: scale(100);
+}
+.item13 :hover{
+  opacity:0;
+  transition: 0.9s;
+  transform: scale(100);
+}
+.item14 :hover{
+  opacity:0;
+  transition: 0.9s;
+  transform: scale(100);
+}
+.item15 :hover{
+  opacity:0;
+  transition: 0.9s;
+  transform: scale(100);
+}
+.item16 :hover{
+  opacity:0;
+  transition: 0.9s;
+  transform: scale(100);
+}
+.item17 :hover{
+  opacity:0;
+  transition: 0.9s;
+  transform: scale(100);
+}
+.item18 :hover{
+  opacity:0;
+  transition: 0.9s;
+  transform: scale(100);
+}
+.item19 :hover{
+  opacity:0;
+  transition: 0.9s;
+  transform: scale(100);
+}
+.item20 :hover{
+  opacity:0;
+  transition: 0.9s;
+  transform: scale(100);
+}
+.item21 :hover{
+  opacity:0;
+  transition: 0.9s;
+  transform: scale(100);
+}
+.item22 :hover{
+  opacity:0;
+  transition: 0.9s;
+  transform: scale(100);
+}
+.item23 :hover{
+  opacity:0;
+  transition: 0.9s;
+  transform: scale(100);
+}
+.item24 :hover{
+  opacity:0;
+  transition: 0.9s;
+  transform: scale(100);
+}
+.item25 :hover{
+  opacity:0;
+  transition: 0.9s;
+  transform: scale(100);
+}
+.item26 :hover{
+  opacity:0;
+  transition: 0.9s;
+  transform: scale(100);
+}
+.item27 :hover{
+  opacity:0;
+  transition: 0.9s;
+  transform: scale(100);
+}
+.item28 :hover{
+  opacity:0;
+  transition: 0.9s;
+  transform: scale(100);
+}
+.item29 :hover{
+  opacity:0;
+  transition: 0.9s;
+  transform: scale(100);
+}
+.item30 :hover{
+  opacity:0;
+  transition: 0.9s;
+  transform: scale(100);
+}
+.item31 :hover{
+  opacity:0;
+  transition: 0.9s;
+  transform: scale(100);
+}
+.item32 :hover{
+  opacity:0;
+  transition: 0.9s;
+  transform: scale(100);
+}
+.item33 :hover{
+  opacity:0;
+  transition: 0.9s;
+  transform: scale(100);
+}
+.item34 :hover{
+  opacity:0;
+  transition: 0.9s;
+  transform: scale(100);
+}
+.item35 :hover{
+  opacity:0;
+  transition: 0.9s;
+  transform: scale(100);
+}
+.item36 :hover{
+  opacity:0;
+  transition: 0.9s;
+  transform: scale(100);
+}
+.item37 :hover{
+  opacity:0;
+  transition: 0.9s;
+  transform: scale(100);
+}
+.item38 :hover{
+  opacity:0;
+  transition: 0.9s;
+  transform: scale(100);
+}
+.item39 :hover{
+  opacity:0;
+  transition: 0.9s;
+  transform: scale(100);
+}
+.item40 :hover{
+  opacity:0;
+  transition: 0.9s;
+  transform: scale(100);
+}

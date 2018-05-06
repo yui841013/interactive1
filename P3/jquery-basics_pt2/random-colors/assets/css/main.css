@@ -1,0 +1,35 @@
+* {margin: 0px; padding 0px;}
+
+body {
+
+	background: pink;	
+	overflow: scroll;
+	-webkit-transition: all ease 500ms;
+
+}
+
+div[class^="page"] {
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	font-size: 120px;	
+}
+
+.break	{ display: none; }
+
+@media print {
+	.break	{ display: block; page-break-before: always; }
+	
+	div[class^="page"] { 
+		position: relative; 
+		font-size: 80px;
+	}
+
+}

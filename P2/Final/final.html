@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Final</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="css/main.css" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<style>
+body{
+  background-image: url("../img/10.10 Yosemite.jpg");
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+   background-size: cover;
+   font-family: 'Roboto', sans-serif;
+}
+h1{
+  margin:20px;
+  top:30px;
+  left:120px;
+  color:white;
+  font-size:40px;
+}
+.iphone4{
+  left:3.8%;
+  position: absolute;
+  width: 40%;
+  top:9.9%;
+  animation: move6 0.4s ease-in-out;
+  animation-fill-mode: forwards;
+}
+.iphone5{
+  left:38%;
+  position: absolute;
+  width:20%;
+  top:6%;
+  animation: move7 0.4s ease-in-out;
+  animation-fill-mode: forwards;
+}
+.iphone7{
+  left:63%;
+  position: absolute;
+  width: 23%;
+  top:5%;
+  animation: move8 0.4s ease-in-out;
+  animation-fill-mode: forwards;
+}
+@keyframes move6 {
+  from{
+    left: -100%;
+  }
+  to{
+    left: 4.4%;
+  }
+}
+@keyframes move7 {
+  from{
+    top: 2000px;
+  }
+  to{
+    top: 50px;
+  }
+}
+@keyframes move8 {
+  from{
+    left: 200%;
+  }
+  to{
+    left: 62.5%;
+  }
+}
+</style>
+<body>
+  <h1>Click on Any IPhones You Like</h1>
+<div class="iphone4">
+  <a href="iphone4.html">
+<img src="iphone 4.png" width="100%" />
+</a>
+</div>
+<div class="iphone5">
+  <a href="iphone5.html">
+  <img src="iphone 5.png" width="100%" />
+</a>
+</div>
+
+<div class="iphone7">
+  <a href="iphone7.html">
+  <img src="iphone7.png" width="100%" />
+</div>
+
+
+</body>
+</html>

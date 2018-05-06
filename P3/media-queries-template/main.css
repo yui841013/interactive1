@@ -1,0 +1,102 @@
+*{
+	color:white;
+	font-family: 'Crimson Text', serif;
+}
+
+body {
+background:url(https://cdn.pixabay.com/photo/2017/10/28/12/57/winter-2896970_960_720.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+}
+#desktop{
+	opacity: 1;
+	color: white;
+}
+	p{
+		position:absolute;
+		left:100px;
+		top:200px;
+		width:500px;
+	}
+	h3{
+		position:absolute;
+		left:100px;
+		top:100px;
+	}
+	h4{
+		position:absolute;
+		left:100px;
+		top:50px;
+	}
+	h5{
+		position:absolute;
+		left:100px;
+		top:700px;
+	}
+}
+
+#tablet, #mobile, #print {
+	opacity: 0;
+}
+
+/* iPad */
+@media (min-width: 668px) and (max-width: 1024px) {
+	body {
+		background:url(https://www.timelinecoverbanner.com/facebook-covers/2012/12/frost-snow-crystal.jpg);
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+
+	#tablet{
+		opacity: 1;
+	}
+
+	#desktop, #mobile, #print {
+		opacity: 0;
+	}
+
+}
+
+/* iPhone 6 */
+@media (min-width: 375px) and (max-width: 667px) {
+
+	body {
+		background: #2B3856;
+	}
+
+	#mobile{
+		opacity: 1;
+	}
+
+	#desktop, #tablet, #print {
+		opacity: 0;
+	}
+}
+
+	/* print */
+@Media print {
+
+	body{
+		background:black;
+		color:white;
+	}
+		#print{
+			opacity: 1;
+		}
+		h3{
+			position:absolute;
+			left:50px;
+			top:200px;
+		}
+		h4{
+			position:absolute;
+			left:50px;
+			top:100px;
+		}
+p{
+	position:absolute;
+	left:50px;
+	top:300px;
+	}
+
+}

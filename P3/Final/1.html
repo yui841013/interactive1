@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Final</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="utf-8" />
+<link href="https://fonts.googleapis.com/css?family=Proza+Libre" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif" rel="stylesheet">
+<script>
+function myFunction() {
+    window.print();
+}
+</script>
+<style>
+body{
+  background-image: url("../Final/map.png");
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size: cover;
+  font-family: 'Raleway', sans-serif;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+div{
+
+}
+
+.me{
+  position: absolute;
+  left:56%;
+  top:81%;
+  display: inline-block;
+}
+.ellie{
+  position:absolute;
+  left:70%;
+  top:55%;
+  display: inline-block;
+  z-index:1003;
+}
+.vanessa{
+  position:absolute;
+  left: 16.5%;
+  top:55%;
+  display: inline-block;
+  z-index:1004;
+}
+.cooper{
+  position:absolute;
+  left:39%;
+  top:40%;
+  display: inline-block;
+  z-index:1002;
+}
+.golf{
+  position:absolute;
+  left:14%;
+  top:14%;
+  display: inline-block;
+  z-index:1002;
+}
+.eilidh{
+  position:absolute;
+  left:70%;
+  top:10%;
+  display: inline-block;
+
+}
+.vrinda{
+  position:absolute;
+  left:53%;
+  top:21%;
+  display: inline-block;
+  z-index:1001;
+}
+.black{
+  position:absolute;
+  left:30%;
+  top:63%;
+  display: inline-block;
+}
+.green{
+  position:absolute;
+  left:33%;
+  top:10%;
+  display: inline-block;
+  z-index:1001;
+}
+.jennifer{
+  position:absolute;
+  left:83%;
+  top:35%;
+  display: inline-block;
+  z-index:1002;
+}
+h3{
+  font-size: 24px;
+  line-height: 30px;
+  margin:0px;
+}
+.text1{
+  position:absolute;
+  top:-31%;
+  left:13%;
+  z-index: 10001;
+}
+.text2{
+  position:absolute;
+  top:-53%;
+  left:-55%;
+  z-index: 10005;
+}
+.text3{
+  position:absolute;
+  top:-41px;
+  height:-4.5px;
+  z-index: 10001;
+}
+.text4{
+  position:absolute;
+  top:-29%;
+  left:12.5%;
+  z-index: 10001;
+}
+.text5{
+  position:absolute;
+  top:7%;
+  left:102%;
+  z-index: 10000;
+}
+.text6{
+  position:absolute;
+  top:-41%;
+  left:37%;
+  z-index: 10000;
+}
+.text7{
+  position:absolute;
+  top:-41%;
+  left:37%;
+  z-index: 10000;
+}
+.text8{
+  position:absolute;
+  top:-9%;
+  left:107%;
+  z-index: 10000;
+}
+.text9{
+  position:absolute;
+  top:-41%;
+  left:37%;
+  z-index: 10000;
+}
+.text10{
+  position:absolute;
+  top:-41%;
+  left:37%;
+  z-index: 10000;
+}
+.me .text1{
+    visibility: hidden;
+    width: 266px;
+    height:24px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 14px;
+    padding: 5px 0;
+}
+
+.ellie .text2 {
+    visibility: hidden;
+    width: 359px;
+    height:28px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 14px;
+    padding: 5px 0;
+    z-index: 10001;
+}
+.vanessa .text3 {
+    visibility: hidden;
+    width: 206px;
+    height:27px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 14px;
+    padding: 5px 0;
+}
+.cooper .text4 {
+    visibility: hidden;
+    width: 241px;
+    height:28px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 14px;
+    padding: 5px 0;
+}
+.golf .text5 {
+    visibility: hidden;
+    width: 216px;
+    height:29px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius:14px;
+    padding: 5px 0;
+}
+.eilidh .text6 {
+    visibility: hidden;
+    width: 333px;
+    height:29px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius:14px;
+    padding: 5px 0;
+}
+.vrinda .text7 {
+    visibility: hidden;
+    width: 194px;
+    height:29px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius:14px;
+    padding: 5px 0;
+}
+.black .text8 {
+    visibility: hidden;
+    width: 194px;
+    height:29px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius:14px;
+    padding: 5px 0;
+}
+.green .text9 {
+    visibility: hidden;
+    width: 330px;
+    height:29px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius:14px;
+    padding: 5px 0;
+}
+.jennifer .text10 {
+    visibility: hidden;
+    width: 194px;
+    height:29px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius:14px;
+    padding: 5px 0;
+    z-index: 10000;
+}
+.me:hover .text1 {
+    visibility: visible;
+    animation-name: ani;
+    animation-duration: .10s;
+}
+.ellie:hover .text2 {
+    visibility: visible;
+    animation-name: ani;
+    animation-duration: .10s;
+}
+.vanessa:hover .text3 {
+    visibility: visible;
+    animation-name: an;
+    animation-duration: .10s;
+}
+.cooper:hover .text4 {
+    visibility: visible;
+    animation-name: ani;
+    animation-duration: .10s;
+}
+.golf:hover .text5 {
+    visibility: visible;
+    animation-name: ani;
+    animation-duration: .10s;
+}
+.eilidh:hover .text6 {
+    visibility: visible;
+    animation-name: ani;
+    animation-duration: .10s;
+}
+.vrinda:hover .text7 {
+    visibility: visible;
+    animation-name: ani;
+    animation-duration: .10s;
+}
+.black:hover .text8 {
+    visibility: visible;
+    animation-name: ani;
+    animation-duration: .10s;
+}
+.green:hover .text9 {
+    visibility: visible;
+    animation-name: ani;
+    animation-duration: .10s;
+}
+.jennifer:hover .text10 {
+    visibility: visible;
+    animation-name: ani;
+    animation-duration: .10s;
+}
+.me:hover {
+  animation: person .5s 1 alternate ease-out forwards;
+}
+.ellie:hover {
+  animation: person .5s 1 alternate ease-out forwards;
+}
+.vanessa:hover {
+  animation: person .5s 1 alternate ease-out forwards;
+}
+.cooper:hover {
+  animation: person .5s 1 alternate ease-out forwards;
+}
+.golf:hover {
+  animation: person .5s 1 alternate ease-out forwards;
+}
+.eilidh:hover {
+  animation: person .5s 1 alternate ease-out forwards;
+}
+.vrinda:hover {
+  animation: person .5s 1 alternate ease-out forwards;
+}
+.black:hover {
+  animation: person .5s 1 alternate ease-out forwards;
+}
+.green:hover {
+  animation: person .5s 1 alternate ease-out forwards;
+}
+.jennifer:hover {
+  animation: person .5s 1 alternate ease-out forwards;
+}
+@keyframes ani{
+  0% { opacity: 0; transform: scale(0.5); }
+  100% { opacity: 1; transform: scale(1); }
+}
+@keyframes person{
+  0% { transform: scale(1); }
+  100% { transform: scale(1.25); }
+}
+h1{
+  position:absolute;
+  top:0%;
+  left:1%;
+}
+
+p{
+  width:50%;
+  position:absolute;
+  left:15%;
+  top:40%;
+  font-size:16px;
+  color:black;
+  line-height: 1.6;
+
+
+}
+h2{
+  position:absolute;
+  left:55%;
+  top:50%;
+
+
+}
+
+#print{
+  opacity: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.print-map{
+   width: 100%;
+
+}
+
+@media print {
+body {
+    font-family: 'IBM Plex Serif', serif;
+
+  }
+  #print{
+    opacity: 1;
+  }
+    .batul{
+    position: absolute;
+    left:50%;
+    top:55%;
+    }
+
+
+  .bg{
+  left:10%;
+  top:10%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: auto;
+}
+
+
+
+    #screen {
+      opacity: 0;
+}
+}
+button{
+  position: absolute;
+  bottom:20px;
+  right:10px;
+}
+</style>
+<body>
+  <div id="print">
+    <div class="batul">
+      <img src="IMG_1052.png" width="50px"/>
+    </div>
+    <div class="bg">
+      <img class="print-map" src="map2.jpg"/>
+    </div>
+
+      <p>GPS Coordinates:(37° 46' 2.5536'' N122° 23' 58.1496'' W
+      </br>
+      Address:1111 8th Street,San Francisco, CA, 94103
+      </br>
+      Lat Long:(37.767376, -122.399486)
+      </p>
+    <h2>You're tracked!</h2>
+  </div>
+<div id="screen">
+  <div class="me">
+    <img src="IMG_3522.png" width="20%" />
+    <span class="text1">
+      <h3>Are you tracking me?</h3>
+    </span>
+  </div>
+  <div class="ellie">
+    <img src="IMG_9386.png" width="50px" /> <span class="text2">
+      <h3>You make me uncomfortable!</h3>
+    </span>
+  </div>
+  <div class="vanessa">
+    <img src="IMG_3523 2.png" width="70px" /><span class="text3">
+  <h3>It's so creepy!!!</h3>
+</span>
+</div>
+  <div class="cooper">
+    <img src="IMG_3778.PNG" width="50px" /><span class="text4">
+  <h3>Can you just stop?</h3>
+</span>
+</div>
+  <div class="golf">
+    <img src="Golf-Actionmoji.png" width="80px" /><span class="text5">
+  <h3>This is so weird!</h3>
+</span>
+</div>
+  <div class="eilidh">
+    <img src="IMG_2346.png" width="50px" /><span class="text6">
+  <h3>Do you think this is funny?</h3>
+</span>
+</div>
+  <div class="vrinda">
+    <img src="bitmoji7.png" width="50px" /><span class="text7">
+  <h3>I don't like this</h3>
+</span>
+</div>
+<div class="black">
+<img src="bitmoji8.png" width="50px" /><span class="text8">
+<h3>Go Away</h3>
+</span>
+</div>
+<div class="green">
+<img src="bitmoji9.png" width="50px" /><span class="text9">
+<h3>Don't behave like a stalker!</h3>
+</span>
+</div>
+<div class="jennifer">
+<img src="bitmoji10.png" width="50px" /><span class="text10">
+<h3>Enough!!!!</h3>
+</span>
+</div>
+  <button type="button" onclick="myFunction()">Are you done?
+  </button>
+  <h1>Let's Track Your Friends</h1>
+</div>
+
+</body>
+</html>

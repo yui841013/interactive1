@@ -1,0 +1,19 @@
+* {margin: 0px; padding 0px;}
+
+body {
+	height: 1440px;
+}
+
+#scroll-position {
+	position: fixed;
+	top: 20px;
+	left: 20px;
+}
+
+img {
+	position: fixed;
+	top: 100px;
+	left: 100px;
+	width: 500px;
+	height: auto;
+}

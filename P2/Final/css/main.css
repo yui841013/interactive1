@@ -1,0 +1,26 @@
+.iphone4{
+  left: 4%;
+  position: absolute;
+  width: 40%;
+  top:10%;
+
+}
+.iphone5{
+  left: 38%;
+  position: absolute;
+  width: 20%;
+    top:6%;
+    index:1000;
+
+}
+.iphone7{
+  left: 63%;
+  position: absolute;
+  width: 23%;
+    top:5%;
+
+}
+
+body{
+  margin: 0;
+}

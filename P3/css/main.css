@@ -1,0 +1,18 @@
+*{
+  background:white;
+}
+
+p{
+  color:black;
+}
+h3{
+  color:black;
+}
+
+}
+@media print{
+  body{
+    background: black;
+    color:white;
+  }
+}
